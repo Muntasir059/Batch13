@@ -31,5 +31,5 @@ except ValueError:
 final_total = subtotal - discount
 
 print(f"Subtotal: {subtotal}")
-print(f"Discount: {discount:.2f}")
-print(f"Final Total: {final_total:.2f}")
+print(f"Discount: {discount:.0f}")
+print(f"Final Total: {final_total:.0f}")
